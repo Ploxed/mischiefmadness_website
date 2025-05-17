@@ -59,6 +59,17 @@ body{
     margin-bottom: 0px;
 }
 
+.centerTitleSmall{
+    margin-top: 15vh;
+    color: white;
+    font-size: 8vw;
+    font-family: Beatstreet;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 0px;
+}
+
 .centeredText{
     font-size: 1.1rem;
     font-family: monospace;
@@ -116,4 +127,41 @@ body{
 
 .seeMoreButton:active{
     font-size: 1.75rem;
+}
+
+.tutorialHolder{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+
+.tutorialButton{
+    inset: none;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 200px;
+    background-color: #222;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 5px;
+    transition: 0.1s;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    
+}
+.tutorialButton:active{
+    transform: translateY(4px);
+}
+
+.tutorialButton:hover{
+    scale: 105%;
 }
